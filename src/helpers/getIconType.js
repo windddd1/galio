@@ -14,9 +14,12 @@ import FA5Icon from 'react-native-vector-icons/FontAwesome5';
 import SimpleLineIcon from 'react-native-vector-icons/SimpleLineIcons';
 import FeatherIcon from 'react-native-vector-icons/Feather';
 import AntIcon from 'react-native-vector-icons/AntDesign';
+import Fontisto from 'react-native-vector-icons/Fontisto';
 
 export default type => {
   switch (type.toLowerCase()) {
+    case 'fontisto':
+      return Fontisto
     case 'zocial':
       return ZocialIcon;
     case 'octicon':
